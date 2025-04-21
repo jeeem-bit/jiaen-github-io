@@ -1,0 +1,103 @@
+html {
+    background-color: black;
+    overflow-x: hidden;
+    transition: all 0.2s ease;
+    height: 95%;
+    margin: 10px;
+}
+  
+* {
+    color: white !important;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    display: flex;
+    border: 1px solid white;
+    overflow-x: hidden;
+    height: 100%;
+}
+  
+.row {
+    min-width: 320px;
+    display: flex;
+    width: 100%;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+  
+.column {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.hello-title {
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap; 
+    font-size: 10px; 
+    color: #60a5fa !important;
+    font-weight: bold;
+}
+
+.hello-image{
+    margin-top: 30px;
+    font-weight: normal !important;
+    font-size: 15px !important;
+}
+  
+.console {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+}
+  
+.command-line {
+    display: flex;
+    margin-bottom: 0.5rem;
+    height: 1rem;
+    position: absolute;
+    top: 40%;
+}
+  
+.prompt {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color:aqua !important;
+}
+  
+.terminal-input {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    flex-grow: 1;
+}
+  
+.output {
+    white-space: pre-wrap;
+    min-height: 1rem;
+    position: absolute;
+    top: calc(40% + 2rem);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+    margin-right: 5px;
+}
+
+.command{
+    color: red !important;
+    font-weight: bold !important;
+}
+  
