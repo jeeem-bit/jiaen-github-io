@@ -5,9 +5,7 @@ This is a portfolio website in the style of a terminal.
 Link to site: [jiaen-github-io](https://jeeem-bit.github.io/jiaen-github-io/)
 
 ## 🚀 Tech Stack
-- Frontend: React, HTML, CSS
-- Backend: Node.js, Express.js
-- Database: Firebase
+- HTML, CSS, Javascript
 
 ## Credits:
 - Inspired by: [satnaing's terminal website](https://github.com/satnaing/terminal-portfolio)
